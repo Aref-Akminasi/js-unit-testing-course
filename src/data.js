@@ -5,7 +5,6 @@ export function generateReportData(logFn) {
   if (logFn) {
     logFn(data);
   }
-
   return data;
 }
 
